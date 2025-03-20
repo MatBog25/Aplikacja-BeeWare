@@ -1,0 +1,234 @@
+{
+  "events": [
+    {
+      "date": "2025-04-01",
+      "odd1": 1.85,
+      "odd2": 3.6,
+      "oddX": 3.2,
+      "image": "https://picsum.photos/seed/101/300/200",
+      "score": "2:1",
+      "title": "Mecz A vs B",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Stadion Narodowy",
+        "nested_object": {
+          "city": "Warszawa",
+          "info": "Porywające widowisko!",
+          "time": "18:00",
+          "attendance": 42000,
+          "temperature": "15°C"
+        }
+      },
+      "away_team": "B",
+      "home_team": "A",
+      "video_link": "https://www.youtube.com/watch?v=XCfvSx5VQ_M"
+    },
+    {
+      "date": "2025-04-02",
+      "odd1": 2.05,
+      "odd2": 3.1,
+      "oddX": 2.9,
+      "image": "https://picsum.photos/seed/102/300/200",
+      "score": "3:2",
+      "title": "Mecz C vs D",
+      "details": {
+        "league": "1 Liga",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Kraków",
+          "info": "Festiwal bramek",
+          "time": "20:30",
+          "attendance": 28000,
+          "temperature": "12°C"
+        }
+      },
+      "away_team": "D",
+      "home_team": "C",
+      "video_link": "https://www.youtube.com/watch?v=pWXpEhcbtvM"
+    },
+    {
+      "date": "2025-04-03",
+      "odd1": 2.5,
+      "odd2": 2.55,
+      "oddX": 2.6,
+      "image": "https://picsum.photos/seed/103/300/200",
+      "score": "1:1",
+      "title": "Mecz E vs F",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Gdańsk",
+          "info": "Zacięty pojedynek",
+          "time": "17:00",
+          "attendance": 33000,
+          "temperature": "10°C"
+        }
+      },
+      "away_team": "F",
+      "home_team": "E",
+      "video_link": "https://www.youtube.com/watch?v=0dqdyWjbRX4"
+    },
+    {
+      "date": "2025-04-04",
+      "odd1": 2.1,
+      "odd2": 3.75,
+      "oddX": 2.1,
+      "image": "https://picsum.photos/seed/104/300/200",
+      "score": "0:0",
+      "title": "Mecz G vs H",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Białystok",
+          "info": "Defensywny styl",
+          "time": "19:45",
+          "attendance": 20000,
+          "temperature": "8°C"
+        }
+      },
+      "away_team": "H",
+      "home_team": "G",
+      "video_link": "https://www.youtube.com/watch?v=Jfnoeg_xEdY"
+    },
+    {
+      "date": "2025-04-05",
+      "odd1": 1.65,
+      "odd2": 4.1,
+      "oddX": 3.8,
+      "image": "https://picsum.photos/seed/105/300/200",
+      "score": "4:3",
+      "title": "Mecz I vs J",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Gdynia",
+          "info": "Niesamowity come-back",
+          "time": "16:00",
+          "attendance": 21000,
+          "temperature": "11°C"
+        }
+      },
+      "away_team": "J",
+      "home_team": "I",
+      "video_link": "https://www.youtube.com/watch?v=c0aaBQJiRIU"
+    },
+    {
+      "date": "2025-04-06",
+      "odd1": 2.2,
+      "odd2": 3.2,
+      "oddX": 2.2,
+      "image": "https://picsum.photos/seed/106/300/200",
+      "score": "2:2",
+      "title": "Mecz K vs L",
+      "details": {
+        "league": "1 Liga",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Koszalin",
+          "info": "Grad goli w końcówce",
+          "time": "13:30",
+          "attendance": 22000,
+          "temperature": "14°C"
+        }
+      },
+      "away_team": "L",
+      "home_team": "K",
+      "video_link": "https://www.youtube.com/watch?v=uOvovzhVoeA"
+    },
+    {
+      "date": "2025-04-07",
+      "odd1": 1.9,
+      "odd2": 3.9,
+      "oddX": 3.1,
+      "image": "https://picsum.photos/seed/107/300/200",
+      "score": "3:1",
+      "title": "Mecz M vs N",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Wrocław",
+          "info": "Dominacja gospodarzy",
+          "time": "21:00",
+          "attendance": 27000,
+          "temperature": "9°C"
+        }
+      },
+      "away_team": "N",
+      "home_team": "M",
+      "video_link": "https://www.youtube.com/watch?v=LJYWB4X62xE"
+    },
+    {
+      "date": "2025-04-08",
+      "odd1": 2.7,
+      "odd2": 2.7,
+      "oddX": 2.7,
+      "image": "https://picsum.photos/seed/108/300/200",
+      "score": "1:0",
+      "title": "Mecz O vs P",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Rzeszów",
+          "info": "Szybka bramka w 2' minucie",
+          "time": "14:00",
+          "attendance": 18000,
+          "temperature": "14°C"
+        }
+      },
+      "away_team": "P",
+      "home_team": "O",
+      "video_link": "https://www.youtube.com/watch?v=HSwkgC_hroo"
+    },
+    {
+      "date": "2025-04-09",
+      "odd1": 1.95,
+      "odd2": 3.4,
+      "oddX": 3.2,
+      "image": "https://picsum.photos/seed/109/300/200",
+      "score": "1:2",
+      "title": "Mecz Q vs R",
+      "details": {
+        "league": "Ekstraklasa",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Szczecin",
+          "info": "Zacięta walka w defensywie",
+          "time": "12:00",
+          "attendance": 25000,
+          "temperature": "17°C"
+        }
+      },
+      "away_team": "R",
+      "home_team": "Q",
+      "video_link": "https://www.youtube.com/watch?v=XOtEHhq3URs"
+    },
+    {
+      "date": "2025-04-10",
+      "odd1": 2.1,
+      "odd2": 3.2,
+      "oddX": 2.4,
+      "image": "https://picsum.photos/seed/110/300/200",
+      "score": "2:0",
+      "title": "Mecz S vs T",
+      "details": {
+        "league": "1 Liga",
+        "stadium": "Miejski",
+        "nested_object": {
+          "city": "Rzeszów",
+          "info": "Pewne zwycięstwo gospodarzy",
+          "time": "15:00",
+          "attendance": 26000,
+          "temperature": "13°C"
+        }
+      },
+      "away_team": "T",
+      "home_team": "S",
+      "video_link": "https://www.youtube.com/watch?v=HSwkgC_hroo"
+    }
+  ]
+}

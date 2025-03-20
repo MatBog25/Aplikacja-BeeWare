@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wyniki Sportowe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+
+  <header>
+    <h1>Wyniki Sportowe</h1>
+    <button id="themeToggle">Tryb ciemny</button>
+  </header>
+
+  <main>
+    <div id="cardsContainer" class="cards-container">
+      <p id="loading">Ładowanie danych z API...</p>
+    </div>
+  </main>
+
+  <div class="footer">
+    &copy; 2025 - My Sports App. All rights reserved.
+  </div>
+  
+  <!-- Popup (modal) ze szczegółami meczu -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeBtn">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
