@@ -13,25 +13,16 @@ from pathlib import Path
 API_URL = 'https://api.npoint.io/b76a756aa6769b16cbdb'
 
 class CombinedRequestHandler(http.server.SimpleHTTPRequestHandler):
-    """
-    Jeden handler obsługujący:
-      - /update-data (pobieranie z API, zapis do cache)
-      - /data (odczyt z cache)
-      - statyczne pliki (index.html, script.js, style.css) przez super().do_GET()
-    """
     def do_GET(self):
-        # Gdy żądanie to /update-data
         if self.path == '/update-data':
             self.handle_update_data()
-        # Gdy żądanie to /data
         elif self.path == '/data':
             self.handle_read_data()
-        # Gdy żądanie to / lub /index.html, chcemy serwować index.html
         elif self.path == '/' or self.path == '/index.html':
             self.path = '/index.html'
             super().do_GET()
         else:
-            # Pozostałe pliki (script.js, style.css, favicon.ico itp.)
+            # Pozostałe pliki (script.js, style.css itp.)
             super().do_GET()
 
     def handle_update_data(self):
@@ -104,12 +95,11 @@ class SportsResultsApp(toga.App):
         print("[INFO] Cache file path:", cache_file)
         os.makedirs(self.paths.data, exist_ok=True)
 
-        # Tworzymy serwer
         # -> directory=static_dir pozwala serwować index.html, script.js itp.
         handler_class = lambda *args, directory=static_dir, **kwargs: \
             CombinedRequestHandler(*args, directory=directory, **kwargs)
 
-        # Uruchamiamy serwer na 127.0.0.1, port=0 (losowy)
+        # Uruchamiamy serwer na 127.0.0.1
         self.httpd = socketserver.TCPServer(("127.0.0.1", 0), handler_class)
         port = self.httpd.server_address[1]
         self.httpd.cache_file = cache_file  # do przechowywania ścieżki cache

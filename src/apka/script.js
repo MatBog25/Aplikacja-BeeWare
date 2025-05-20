@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeBtn = document.getElementById('closeBtn');
   const themeToggle = document.getElementById('themeToggle');
 
-  // Inicjalizacja motywu
   const savedTheme = localStorage.getItem('theme') || 'light';
   document.body.classList.add(savedTheme);
   themeToggle.textContent = (savedTheme === 'light') ? 'Tryb ciemny' : 'Tryb jasny';
@@ -81,9 +80,8 @@ document.addEventListener('DOMContentLoaded', () => {
           </iframe>
         </div>`;
     }
-
     // Dodaj JSON do modalu
-    const prettyJson = JSON.stringify(data, null, 2); // Formatuje JSON z wcięciami
+    const prettyJson = JSON.stringify(data, null, 2);
     html += `<hr/><pre>${prettyJson}</pre>`;
 
     modalBody.innerHTML = html;
